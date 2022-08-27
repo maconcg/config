@@ -1,0 +1,25 @@
+Emacs.internalBorder: 0
+
+Emacs.pane.menubar.font: Cantarell-11
+Emacs.pane.menubar.foreground: #000000
+Emacs.pane.menubar.background: #f6f5f3
+Emacs.pane.menubar.horizontalSpacing: 14
+Emacs.pane.menubar.verticalSpacing: 8
+Emacs.pane.menubar.shadowThickness: 2
+Emacs.pane.menubar.arrowSpacing: 2
+
+Emacs.menu*.font: Cantarell-11
+Emacs.menu*.foreground: #000000
+Emacs.menu*.background: #f6f5f3
+Emacs.menu*.verticalSpacing: 8
+Emacs.menu*.horizontalSpacing: 14
+Emacs.menu*.shadowThickness: 2
+Emacs.menu*.arrowSpacing: 2
+
+Emacs.dialog*.font: Cantarell-11
+Emacs.dialog*.foreground: #000000
+Emacs.dialog*.background: #f6f5f3
+Emacs.dialog*.verticalSpacing: 8
+Emacs.dialog*.horizontalSpacing: 14
+Emacs.dialog*.shadowThickness: 2
+Emacs.dialog*.arrowSpacing: 2
