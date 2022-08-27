@@ -1,0 +1,13 @@
+[Unit]
+Description=Xbanish
+Documentation=man:xbanish(1) https://github.com/jcs/xbanish
+
+[Service]
+Type=simple
+ExecStart=xbanish -icontrol -ilock -imod1 -imod2 -imod3 -imod4 -imod5
+
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=graphical-session.target
