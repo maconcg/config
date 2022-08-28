@@ -1,4 +1,5 @@
 ;; Replacement for question_mark_bits[].
+;; originally 10 pixels high
 ;;
 ;;   ....xxxxxxxx....
 ;;   ....xxxxxxxx....
@@ -49,6 +50,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Replacement for exclamation_mark_bits[].
+;; originally 10 pixels high
 ;;
 ;;   ......XXXX......
 ;;   ......XXXX......
@@ -99,6 +101,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Replacement for left_arrow_bits[].
+;; originally 8 pixels high
 ;;
 ;;   ......xxxx......
 ;;   ......xxxx......
@@ -141,6 +144,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Replacement for right_arrow_bits[].
+;; originally 8 pixels high
 ;;
 ;;   ......xxxx......
 ;;   ......xxxx......
@@ -183,6 +187,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Replacement for up_arrow_bits[].
+;; originally 8 pixels high
 ;;
 ;;   ......xxxx......
 ;;   ......xxxx......
@@ -226,6 +231,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Replacement for down_arrow_bits[].
+;; originally 8 pixels high
 ;;
 ;;   ......xxxx......
 ;;   ......xxxx......
@@ -269,6 +275,7 @@
 
 
 ;; Replacement for left_curly_arrow_bits[].
+;; originally 8 pixels high
 ;;
 ;;   ....xxxxxxxx....
 ;;   ....xxxxxxxx....
@@ -311,6 +318,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Replacement for right_curly_arrow_bits[].
+;; originally 8 pixels high
 ;;
 ;;   ....xxxxxxxx....
 ;;   ....xxxxxxxx....
@@ -353,6 +361,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Replacement for left_triangle_bits[].
+;; originally 8 pixels high
 ;;
 ;;   ............xxxx
 ;;   ............xxxx
@@ -395,6 +404,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Replacement for right_triangle_bits[].
+;; originally 8 pixels high
 ;;
 ;;   xxxx............
 ;;   xxxx............
@@ -437,6 +447,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Replacement for top_left_angle_bits[].
+;; originally 8 pixels high
 ;;
 ;;   xxxxxxxxxxxx....
 ;;   xxxxxxxxxxxx....
@@ -479,6 +490,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Replacement for top_right_angle_bits[].
+;; originally 8 pixels high
 ;;
 ;;   ....xxxxxxxxxxxx
 ;;   ....xxxxxxxxxxxx
@@ -521,6 +533,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Replacement for bottom_left_angle_bits[].
+;; originally 8 pixels high
 ;;
 ;;   ................
 ;;   ................
@@ -563,6 +576,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Replacement for bottom_right_angle_bits[].
+;; originally 8 pixels high
 ;;
 ;;   ................
 ;;   ................
@@ -605,6 +619,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Replacement for left_bracket_bits[].
+;; originally 10 pixels high
 ;;
 ;;   xxxxxxxxxxxx....
 ;;   xxxxxxxxxxxx....
@@ -655,6 +670,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Replacement for right_bracket_bits[].
+;; originally 10 pixels high
 ;;
 ;;   ....xxxxxxxxxxxx
 ;;   ....xxxxxxxxxxxx
@@ -705,6 +721,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Replacement for filled_rectangle_bits[].
+;; originally 13 pixels high
 ;;
 ;;   xxxxxxxxxxxxxx..
 ;;   xxxxxxxxxxxxxx..
@@ -767,6 +784,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Replacement for hollow_rectangle_bits[].
+;; originally 13 pixels high
 ;;
 ;;   xxxxxxxxxxxxxx..
 ;;   xxxxxxxxxxxxxx..
@@ -829,6 +847,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Replacement for hollow_square_bits[].
+;; originally 6 pixels high
 ;;
 ;;   ..xxxxxxxxxxxx..
 ;;   ..xxxxxxxxxxxx..
@@ -863,6 +882,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Replacement for filled_square_bits[].
+;; originally 6 pixels high
 ;;
 ;;   ..xxxxxxxxxxxx..
 ;;   ..xxxxxxxxxxxx..
@@ -897,7 +917,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Replacement for vertical_bar_bits[].
-;; originally 13 pixels high(?)
+;; originally 13 pixels high
 ;;
 ;;   xxxx............
 ;;   xxxx............
@@ -960,7 +980,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Replacement for horizontal_bar_bits[].
-;; originally 2 pixels high(?)
+;; originally 2 pixels high
 ;;
 ;;   xxxxxxxxxxxxxx..
 ;;   xxxxxxxxxxxxxx..
@@ -979,6 +999,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Replacement for empty_line_bits[].
+;; originally 6 pixels high
 ;;
 ;;   ................
 ;;   ................
