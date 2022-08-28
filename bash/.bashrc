@@ -20,7 +20,6 @@ fi
 
 aliases="$HOME/.config/bash/aliases.bash"
 options="$HOME/.config/bash/options.bash"
-
 for file in "$aliases" "$options"; do
     if [[ -r "$file" ]]; then
 	source "$file"
@@ -29,13 +28,6 @@ done
 
 funcdir="$HOME/.config/bash/functions"
 vardir="$HOME/.config/bash/variables/nonlogin"
-
-for file in "$aliases" "$options"; do
-    if [[ -r "$file" ]]; then
-	source "$file"
-    fi
-done
-
 for dir in "$funcdir" "$vardir"; do
     if [[ -d "$dir" ]]; then
 	for file in "$dir"/*; do
@@ -43,6 +35,7 @@ for dir in "$funcdir" "$vardir"; do
 	done
     fi
 done
+unset aliases dir file funcdir options vardir
 
 # show a fortune and move the prompt to the bottom of the window.
 fortune_and_move_prompt_to_bottom

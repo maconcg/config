@@ -6,12 +6,12 @@
 
 
 vardir="$HOME/.config/bash/variables/login"
-
 if [[ -d "$vardir" ]]; then
     for file in "$vardir"/*; do
 	source "$file"
     done
 fi
+unset vardir
 
 # Include user's local .bashrc if it exists.
 if [[ -f "$HOME/.bashrc" ]]; then
