@@ -1,5 +1,3 @@
-#!/bin/bash -
-
 if [[ $INSIDE_EMACS ]]; then
     EDITOR=emacsclient
     VISUAL=emacsclient
