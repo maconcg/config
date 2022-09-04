@@ -38,12 +38,3 @@ xterm*|rxvt*)
 *)
     ;;
 esac
-
-if [ -x /usr/bin/dircolors ]; then
-    # Allow user to specify LS_COLORS in a file (if that file exists). Else,
-    # set LS_COLORS by evaluating the output of 'dircolors --bourne-shell'.
-    # LS_COLORS is used by the programs ls, dir, and vdir.
-    test -r ~/.config/bash/dircolors &&
-	eval "$(/usr/bin/dircolors --bourne-shell ~/.config/bash/dircolors)" ||
-	    eval "$(/usr/bin/dircolors --bourne-shell)"
-fi
