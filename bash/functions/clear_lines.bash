@@ -6,3 +6,4 @@ function clear_lines() {
         (( i++ ))
     done
 }
+export -f clear_lines

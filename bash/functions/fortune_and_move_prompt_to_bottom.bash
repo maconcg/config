@@ -9,3 +9,4 @@ function fortune_and_move_prompt_to_bottom() {
         fi
     fi
 }
+export -f fortune_and_move_prompt_to_bottom

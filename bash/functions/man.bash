@@ -6,3 +6,4 @@ function man() {
 	command man "$@"
     fi
 }
+export -f man
